@@ -29,14 +29,21 @@ const ImageCard = ({ item, navigation }) => {
 const styles = StyleSheet.create({
     card: {
         marginBottom: 16,
+        backgroundColor: "#f9f9f9",
+        borderRadius: 8,
+        overflow: "hidden",
+        elevation: 2, // Para Android
+        shadowColor: "#000", // Para iOS
+        shadowOffset: { width: 0, height: 2 }, // Para iOS
+        shadowOpacity: 0.2, // Para iOS
+        shadowRadius: 2, // Para iOS
     },
     image: {
         width: "100%",
         height: 200,
-        borderRadius: 8,
     },
     title: {
-        marginTop: 8,
+        margin: 8,
         fontSize: 16,
         fontWeight: "bold",
     },
