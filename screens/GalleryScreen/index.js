@@ -1,13 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-    Platform,
-    View,
-    TextInput,
-    ScrollView,
-    FlatList,
-    StyleSheet,
-    ActivityIndicator,
-} from "react-native";
+import { Platform, View, TextInput, ScrollView, FlatList, StyleSheet, ActivityIndicator } from "react-native";
 import { fetchImages } from "../../api/nasaApi";
 import ImageCard from "../../components/ImageCard";
 import ProgressBar from "../../components/ProgressBar";

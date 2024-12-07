@@ -32,11 +32,11 @@ const styles = StyleSheet.create({
         backgroundColor: "#f9f9f9",
         borderRadius: 8,
         overflow: "hidden",
-        elevation: 2, // Para Android
-        shadowColor: "#000", // Para iOS
-        shadowOffset: { width: 0, height: 2 }, // Para iOS
-        shadowOpacity: 0.2, // Para iOS
-        shadowRadius: 2, // Para iOS
+        elevation: 2,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.2,
+        shadowRadius: 2,
     },
     image: {
         width: "100%",
